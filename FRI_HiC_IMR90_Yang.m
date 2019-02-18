@@ -132,5 +132,5 @@ set(legend('DNase','FRI'),'FontSize',12);
 set(text(150,0.019,'Chromosome 20'),'FontSize',12);
 %tt1=corr(hfri,dnasevec(idx_hic),'type', 'Spearman');  %% Spearman correlation value for nonzero flexibility regions. 
 end
-disp(['toc计算最后一次循环运行时间',num2str(toc)]);
+disp(['toc:',num2str(toc)]);
 
